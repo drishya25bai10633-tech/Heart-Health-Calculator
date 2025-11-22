@@ -1,13 +1,13 @@
 # Heart Health Risk Calculator
 # Submitted by: Drishya Prakash[25BAI10633]
-# Project: Rule-Based Expert System using Python Lists and Loops
+# Project: Rule-Based Analysis System using Python 
 
 print("*******************************************")
 print("   HEART HEALTH RISK CALCULATOR SYSTEM     ")
 print("*******************************************")
 print("Please answer the following questions to assess your risk.\n")
 
-# STEP A: Setup the ListS
+# STEP A: Setup the Lists
 # We keep questions and answers in parallel lists.
 questions = [
     "1. Enter your Age (e.g., 25, 50): ",
@@ -25,7 +25,7 @@ for q in questions:
     user_input = input(q)
     answers.append(user_input) 
 
-# STEP C: The Risk Calculation (The "Brain")
+# STEP C: The Risk Calculation
 # Now we analyze the data stored in the 'answers' list.
 # answers[0] is Age, answers[1] is Smoking, etc.
 
@@ -42,7 +42,7 @@ elif age > 30:
 if answers[1].lower() == "yes":
     risk_score = risk_score + 3
 
-# Logic 3: Exercise Check (Lack of exercise increases risk)
+# Logic 3: Exercise Check (since lack of exercise increases risk)
 if answers[2].lower() == "no":
     risk_score = risk_score + 2
 
@@ -54,7 +54,7 @@ if answers[3].lower() == "yes":
 if answers[4].lower() == "yes":
     risk_score = risk_score + 1
 
-# STEP D: The Report (Output)
+# STEP D: The Output
 print("\n===========================================")
 print("           FINAL ANALYSIS REPORT           ")
 print("===========================================")
