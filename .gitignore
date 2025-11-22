@@ -1,1 +1,16 @@
+Ignore common Python temporary files and environment directories.
 
+Python compiled files
+
+pycache/
+*.pyc
+
+Virtual environment files (if you ever use one)
+
+venv/
+env/
+
+Editor/OS temporary files
+
+.DS_Store # Mac OS
+*~ # Common editor backup files
