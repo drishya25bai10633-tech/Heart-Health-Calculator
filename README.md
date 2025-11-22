@@ -1,6 +1,6 @@
-# Heart Health Risk Calculator 💓
+# Heart Health Risk Calculator ❤️
 
-### 👤 Submitted by: Drishya Prakash | [25BAI10633]
+### Submitted by: Drishya Prakash | [25BAI10633]
 
 ## 📖 Project Overview
 This is a Python-based application developed for the [Your Course Name] course. It functions as a Rule-Based Expert System that assesses a user's risk of heart disease based on lifestyle and biological factors. This project demonstrates the use of structured programming, modular design, and conditional logic to solve a healthcare problem.
@@ -38,7 +38,7 @@ The project follows a modular design to ensure maintainability:
     ```
 4.  Follow the on-screen prompts to enter your health details.
 
-## 🧪 Instructions for Testing
+## ✔️ Instructions for Testing
 To verify the logic, you can run the following test cases:
 1.  **High Risk Test:** Enter Age > 50, Smoker = "yes", Exercise = "no". (Expected: High Risk)
 2.  **Low Risk Test:** Enter Age < 30, Smoker = "no", Exercise = "yes". (Expected: Low Risk)
