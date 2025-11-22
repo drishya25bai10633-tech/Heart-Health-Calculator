@@ -1,4 +1,4 @@
-# Configuration file for Heart Health Project
+# Configuration file for Heart Health Calculator Project
 SYSTEM_TITLE = "HEART HEALTH RISK CALCULATOR"
 
 # The main questionnaire content
