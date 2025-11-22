@@ -1,7 +1,7 @@
 # Heart-Health-Calculator
 
 ## Project Overview
-A Python-based application that assesses a user's risk of heart disease based on lifestyle and biological factors. This project demonstrates the use of structured programming, arrays, and conditional logic to solve a healthcare problem.
+A Python-based application that assesses a user's risk of heart disease based on lifestyle and biological factors. This project demonstrates the use of structured programming, arrays, and conditional logic to solve a human healthcare problem.
 
 ## Objectives
 * To create a user-friendly interface for health screening.
