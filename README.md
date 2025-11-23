@@ -40,8 +40,8 @@ The project follows a modular design to ensure maintainability:
 
 ## ✔️ Instructions for Testing
 To verify the logic, you can run the following test cases:
-1.  **High Risk Test:** Enter Age > 50, Smoker = "yes", Exercise = "no". (Expected: High Risk)
-2.  **Low Risk Test:** Enter Age < 30, Smoker = "no", Exercise = "yes". (Expected: Low Risk)
+1.  **High Risk Test:** Enter Age > 60, Smoker = "no", Exercise = "no". (Expected: High Risk)
+2.  **Low Risk Test:** Enter Age < 20, Smoker = "no", Exercise = "yes". (Expected: Low Risk)
 3.  **Validation Test:** Press "Enter" without typing anything to see the error handler.
 
 ## 📸 Screenshots
